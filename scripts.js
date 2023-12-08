@@ -44,3 +44,46 @@
 
 // Задание 4
 
+// let num1 = Math.round(Math.random() * 200 - 100),
+//     num2 = Math.round(Math.random() * 200 - 100),
+//     num3 = Math.round(Math.random() * 200 - 100);
+// let min = 0;
+// document.getElementById('output').innerText = num1 + " " + num2 + " " + num3
+// if (num1 < num2) {
+//     min = num1;
+// }
+// else
+//     min = num2;
+// if (num3 < min){
+//     min = num3;
+// }
+// console.log("Наименьшее число: " + min);
+// document.getElementById('output').innerText += "\n Наименьшее число: " + min;
+// let max = 0;
+// if (num1 > num2) {
+//     max = num1;
+// } else {
+//     max = num2;
+// }
+// if (num3 > max){
+//     max = num3;
+// }
+// console.log("Наибольшее число: " + max);
+// document.getElementById('output').innerText += "\n Наибольшее число: " + max;
+
+//Задание 5
+
+let apples = Math.round(Math.random()*10),
+    oranges = Math.round(Math.random()*10),
+    aps = apples * 0.1,
+    ors = oranges * 0.15;
+console.log("Апельсинов: " + oranges);
+console.log("Яблок: " + apples);
+document.getElementById('output').innerText = "Апельсинов: " + oranges + "\n Яблок: " + apples + "\n";
+if (aps > ors) {
+    console.log("Бери яблоки");
+    document.getElementById('output').innerText += "Бери яблоки";
+} else {
+    console.log("Бери апельсины");
+    document.getElementById('output').innerText += "Бери апельсины";
+}
